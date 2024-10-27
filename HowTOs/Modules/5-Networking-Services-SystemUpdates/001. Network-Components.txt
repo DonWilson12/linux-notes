@@ -1,5 +1,5 @@
 * IP
-* Subnet mask
+* Subnetmask
 * Gateway
 * Static vs DHCP
 * Interface

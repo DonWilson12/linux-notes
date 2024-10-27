@@ -8,8 +8,8 @@
 $ yum install <package name>
 
 # to install the package
-$ rpm -hiv </absolute/path/filename.rpm>
+$ rpm -hiv [/absolute/path/filename.rpm]
 
 # remove the package
-$ rpm -e <full name>
-$ yum remove <package name>
+$ rpm -e [full name]
+$ yum remove [package name]

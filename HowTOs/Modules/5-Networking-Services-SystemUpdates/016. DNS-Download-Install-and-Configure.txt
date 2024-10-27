@@ -2,8 +2,8 @@
 	  Package to installed is called "bind"
 
 Purpose?
-	Hostname to IP			(A Record)
-	IP to hostname			(PTR Record)
+	Hostname to IP		(A Record)
+	IP to hostname		(PTR Record)
 	Hostname to Hostname	(CNAME Record)
 
 Files

@@ -1,4 +1,4 @@
-NTP syncrozice computer's time to another server
+NTP syncronize computer's time to another server
 
 File	= /etc/ntp.conf
 Service	= systemctl restart ntpd

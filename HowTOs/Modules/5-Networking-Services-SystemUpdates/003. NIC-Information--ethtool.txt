@@ -1,4 +1,4 @@
-NIC=Network Interface Card
+NIC = Network Interface Card
 Example:
 	$ ethtool enp0s3
 

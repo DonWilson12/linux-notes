@@ -10,7 +10,6 @@
 • Make sure to execute the fsck on an unmounted file systems to avoid any data corruption issues.
   The / directory cannot be unmount.
 
-
 • Force a filesystem check even if it's clean using option -f
 
 • Attempt to fix detected problems automatically using option -y

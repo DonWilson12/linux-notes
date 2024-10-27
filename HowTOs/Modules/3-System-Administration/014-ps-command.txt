@@ -3,10 +3,10 @@
 Usage examples:
 * ps	= shows the process of the current shell
 
-PID     = the unique process ID
-TTY     = terminal type that the user logged-in to
-TIME    = amount of CPU in minutes and seconds the the process has been running
-CMD     = name of the command
+PID	= the unique process ID
+TTY	= terminal type that the user logged-in to
+TIME	= amount of CPU in minutes and seconds the the process has been running
+CMD	= name of the command
 
 $ ps -e		= shows all running process
 $ ps aux	= shows all running process in BSD format

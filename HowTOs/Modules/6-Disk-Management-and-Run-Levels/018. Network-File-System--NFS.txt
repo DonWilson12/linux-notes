@@ -20,8 +20,8 @@ Steps for NFS Server Configuration
 	$ mkdir /mynfs
 	$ chmod a+rwx /mynfs
 # Modify /etc/exports file to add new shared filesystem
-	$ /mynfs	192.168.12.7(rw,sync,no_root_squash)	= for only 1 host
-	$ /mynfs	*(rw,sync,no_root_squash)		= for everyone
+	/mynfs	192.168.12.7(rw,sync,no_root_squash)	= for only 1 host
+	/mynfs	*(rw,sync,no_root_squash)		= for everyone
 # Export the NFS filesystem
 	$ exportfs -rv
 
