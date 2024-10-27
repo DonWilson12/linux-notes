@@ -1,2 +1,2 @@
-* check file and directories properties
-ls -l
+# check file and directories properties
+$ ls -l

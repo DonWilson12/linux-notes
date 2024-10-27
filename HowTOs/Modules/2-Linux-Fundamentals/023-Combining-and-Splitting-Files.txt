@@ -4,10 +4,10 @@
 * Multiple files can be combined into one and
 * One file can be split into multiple files
 
-	$ cat file1 file2 file3 > file4
-	$ split file4
+$ cat file1 file2 file3 > file4
+$ split file4
 
-	e.g
-	$ split -l 300 file.txt childfile
+e.g
+$ split -l 300 file.txt childfile
 
-	Split file.txt into 300 lines per file and output to childfileaa, childfileab, and childfileac
+Split file.txt into 300 lines per file and output to childfileaa, childfileab, and childfileac

@@ -11,20 +11,20 @@ Pleae note: Redhat/CentOS does not provide this daemon in its standard repo.
 
 Lab exercise:
 
-* To check time status
+# To check time status
 	$ timedatectl
 
-* To view all available time zones
+# To view all available time zones
 	$ timedatectl list-timezones
 
-* To set the time zone
+# To set the time zone
 	$ timedatectl set-timezone "America/New_York"
 
-* To set date
+# To set date
 	$ timedatectl set-time YYYY-MM-DD
 
-* To set date and time
+# To set date and time
 	$ timedatectl set-time '2015-11-20 16:14:50'
 
-* To start automatic time synchronization with a remote NTP server
+# To start automatic time synchronization with a remote NTP server
 	$ timedatectl set-tnp true

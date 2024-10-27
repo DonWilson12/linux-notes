@@ -1,5 +1,4 @@
-* change hostname base on the purpose
-
+# change hostname base on the purpose
 $ hostnamectl --set-hostname newhostname
 
 Version 7 = Edit /etc/hostname

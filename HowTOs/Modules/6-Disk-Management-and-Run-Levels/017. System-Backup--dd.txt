@@ -23,9 +23,8 @@ execute the dd command as shown:
 $ dd if=<source filename> of=<target filename> [Options]
 $ dd if=/dev/sda of=/dev/sdb status=progress
 
-• To backup/copy the disk partition
+# To backup/copy the disk partition
 $ dd if=/dev/sdal of=/root/sdal.img
 
-• Restoring this image file to other machine after copying the .img
+# Restoring this image file to other machine after copying the .img
 $  dd if=/root/sdal.img of=/dev/sdb3
-

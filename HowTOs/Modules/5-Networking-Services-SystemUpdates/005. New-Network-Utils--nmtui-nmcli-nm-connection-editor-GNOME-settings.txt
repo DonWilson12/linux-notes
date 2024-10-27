@@ -15,21 +15,21 @@ Network conf methods
 
 Network conf methods
 
-* nmcli - This tool is useful when access to a graphical env is not available and can be also used within
-	  scripts to make network conf changes.
+* nmcli 				= This tool is useful when access to a graphical env is not available and can be also used within
+	  					  scripts to make network conf changes.
 
-* nmtui - This tool can be run within any terminal window and allows changes to be made by making menu 
-	  selections and entering data.
+* nmtui 				= This tool can be run within any terminal window and allows changes to be made by making menu 
+	  					  selections and entering data.
 
-* nm-connection-editor - A full graphical management tool providing access to most of the NetworkManager
-			 configurations opstions. It can only be accessed through the desktop or console.
+* nm-connection-editor 	= A full graphical management tool providing access to most of the NetworkManager
+			 			  configurations opstions. It can only be accessed through the desktop or console.
 
-* GNOME Settings - The network screen of the GNOME desktop settings application allows basic network 
-		   management task to be performed.
+* GNOME Settings 		= The network screen of the GNOME desktop settings application allows basic network 
+		   				  management task to be performed.
 
 $ nmcli con show
 
-Using nmcli to configure static IP
+* Using nmcli to configure static IP
 
 $ nmcli device	(Get the listing of network interface)
 $ nmcli connection modify enp0s3 ipv4.addresses <ipaddress/24>
@@ -39,7 +39,7 @@ $ nmcli connection down enp0s3
 $ nmcli connection up enp0s3
 $ ip address show enp0s3
 
-Adding secondary static IP using nmcli
+* Adding secondary static IP using nmcli
 
 $ nmcli device status
 $ nmcli connection-show --active
@@ -48,6 +48,3 @@ $ nmcli connection modify enp0s3 +ipv4.addresses <ipadd/24>	# if has secondary N
 $ nmcli connection reload
 $ systemctl reboot
 $ ip address show
-
-
-

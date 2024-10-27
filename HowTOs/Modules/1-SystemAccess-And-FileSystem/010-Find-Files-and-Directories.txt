@@ -11,7 +11,7 @@ $ locate <filename>	# If "locate" command does not output any result, then login
 			# To check = rpm -qa | grep mlocate
 			# To install = yum install mlocate
 
-example: If you want to find network file
+# example: If you want to find network file
 
 $ find / -name "ifcfg-enp0s3"
 

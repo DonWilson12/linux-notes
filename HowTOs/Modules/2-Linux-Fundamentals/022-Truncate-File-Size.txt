@@ -2,7 +2,7 @@
 
 Syntax:
 
-truncate -s [specified size] [filename]
+$ truncate -s [specified size] [filename]
 
 Command
 

@@ -4,7 +4,7 @@ Main Run level
 
 * 0	Shutdown (or halt) the system
 * 1	Single-user mode; usually aliased as s or S	# when tshooting, reset password
-* 6 	Reboot the system
+* 6 Reboot the system
 
 Other Run level
 

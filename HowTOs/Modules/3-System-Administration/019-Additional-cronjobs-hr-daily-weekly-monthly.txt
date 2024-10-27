@@ -17,4 +17,4 @@ $ cd /etc/
 $ ls -l cron.*
 
 * the timing for hourly
-cat /etc/cron.d/0hourly
+$ cat /etc/cron.d/0hourly

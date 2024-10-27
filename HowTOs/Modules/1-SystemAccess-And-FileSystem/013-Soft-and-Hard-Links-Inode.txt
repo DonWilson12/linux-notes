@@ -1,8 +1,8 @@
-inode = Pointer or numbers of a file on the hard disks
+* inode = Pointer or numbers of a file on the hard disks
 
-Soft Link = Link will be removed if file is removed or renamed
+* Soft Link = Link will be removed if file is removed or renamed
 
-Hard Link = Deleting, renaming or moving the original file will not affect the hard link
+* Hard Link = Deleting, renaming or moving the original file will not affect the hard link
 
 	ln
 	ln -s

@@ -10,7 +10,7 @@ $ systemctl enable servicename.service
 $ systemctl restart|reload servicename.service		= used after configuration changes
 $ systemctl list-units --all 
 
-The output has the ff columes:
+The output of the ff colums:
 	* UNIT: The systemd unit name
 	* LOAD: Whether the unit's configuration has been parsed by systemd. The configuration of loaded units is kept in memory
 	* ACTIVE: A summary state about whether the unit is active. This is usually a fairly basic way to tell if the unit has started successfully or not.

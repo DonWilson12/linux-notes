@@ -20,7 +20,7 @@ $ rpm -e <packagename>
 
 
 # list of config files of the package
-rpm -qc <packagename>
+$ rpm -qc <packagename>
 
 
 # find out some information of the command

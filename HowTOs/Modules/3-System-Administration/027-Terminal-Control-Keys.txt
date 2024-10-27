@@ -9,4 +9,3 @@ CTRL+u	= erase everthing you've typed on the command line
 CTRL+c 	= stop/kill a command
 CTRL+z	= suspend a command
 CTRL+d	= exit from an interactive program (signals end of data)
-

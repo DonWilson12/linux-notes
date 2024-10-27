@@ -4,6 +4,10 @@ What is a Shell?
 	* CLI is a Shell
 
 Find your Shell
-	* echo $0
-	* Available Shells $ cat /etc/shells
-	* Your Shell? /etc/passwd
+	$ echo $0
+
+* Available Shells 
+	$ cat /etc/shells
+
+* Your Shell? 
+	$ cat /etc/passwd

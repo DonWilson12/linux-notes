@@ -32,14 +32,14 @@ o	- No errors
 
 Example:
 
-* repair file system
+# repair file system
 $ umount /data
 $ xfs_repair /dev/sdb1
 
-* Check the exit code
+# Check the exit code
 $ echo $?
 
-* mount it again
+# mount it again
 $ mount /dev/sdb1 /data
 
 

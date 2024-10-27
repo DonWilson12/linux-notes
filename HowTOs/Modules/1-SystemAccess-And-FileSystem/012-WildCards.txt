@@ -13,19 +13,19 @@
 
 Examples:
 
-* Create 9 files
+# Create 9 files
 $ touch abcd{1..9}-xyz
 
-* Remove multiples files that starts abc filename
+# Remove multiples files that starts abc filename
 $ rm abc*
 
-* List file names that starts abcd
+# List file names that starts abcd
 $ ls -l abcd*
 
-* Remove everything that end with xyz
+# Remove everything that end with xyz
 $ rm *xyz
 
-* List files that has the character bcd
+# List files that has the character bcd
 $ ls -l ?bcd*
 
 # Anything that has c or d letter in a file

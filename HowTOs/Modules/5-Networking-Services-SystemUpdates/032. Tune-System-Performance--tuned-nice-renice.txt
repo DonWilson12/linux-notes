@@ -1,4 +1,4 @@
-*Linux system comes fined tunned by default when you install, 
+* Linux system comes fined tunned by default when you install, 
  however there are a few tweaks that can be done based on system performance and application requirements.
 
 Those are:
@@ -57,7 +57,8 @@ What is tuned?
 
 * To set the process priority 
 	$ nice –n # process-name
-	e.g. $ nice –n -15 top
+	e.g. 
+	$ nice –n -15 top
 
 
 * To change the process priority 

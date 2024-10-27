@@ -1,7 +1,7 @@
-* An absolute path always begins with a "/"
+# An absolute path always begins with a "/"
 $ cd/var/log/samba
 
-* A relative path does not begin with a "/"
+# A relative path does not begin with a "/"
 $ cd /var
 $ cd log
 

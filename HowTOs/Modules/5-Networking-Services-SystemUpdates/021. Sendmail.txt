@@ -9,7 +9,7 @@
 	$ systemctl restart sendmail
 
 * Command
-	mail -s "subject line" email@mydomain.com
+	$ mail -s "subject line" email@mydomain.com
 	$ ctrl+d # to get out from the mail program
 
 
@@ -20,4 +20,3 @@ $ vi /etc/mail/sendmail.mc
 
 # Look for this line and defined your relay mail server
 dnl define('SMART_HOST', 'mail.relay.server')dnl
-

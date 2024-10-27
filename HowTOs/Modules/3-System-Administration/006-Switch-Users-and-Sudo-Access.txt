@@ -3,9 +3,10 @@
 Commands
 
 $ su - username	= switch user
-$ su -		= switch to root user
-$ sudo command	= 
-$ visudo	= it's config file to allow had or remove the rights certain commands
+$ su -		    = switch to root user
+$ sudo command	= is a command that allows users to run commands with privileges that only root user have
+$ visudo	    = it's config file to allow had or remove the rights certain commands
+
 * after visudo command look for %wheel keyword and look root on the top of it
 root	ALL=(ALL)	ALL
 user	ALL=(ALL)	ALL
@@ -14,7 +15,7 @@ OR..
 
 $ usermod -aG wheel [username]
 
-verify
+# verify
 
 $ grep wheel /etc/group
 

@@ -118,15 +118,4 @@ PRACTICAL EXAMPLES
 * To block outgoing traffic to a specific website/IP address
 	$ host -t a www.facebook.com = find IP address
 	$ firewall-cmd --direct --add-rule ipv4 filter OUTPUT 0 -d 31.13.71.36 -j DROP
-
-
-
-
-
-
-
-
-
-
-
-
+	

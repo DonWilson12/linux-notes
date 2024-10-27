@@ -1,5 +1,5 @@
-* Samba is a Linux tool or utility that allows sharing for Linux resources
-  such as files and printers to with other operating systems
+Samba is a Linux tool or utility that allows sharing for Linux resources
+      such as files and printers to with other operating systems
 * It works exactly like NFS but the difference is NFS shares within Linux or Unix like system 
   whereas Samba shares with other OS (e.g. Windows, MAC etc.)
 * For example, computer “A” shares its filesystem with computer “B” using Samba then computer "B" 

@@ -7,7 +7,7 @@
 	* Edit your /etc/ssh/sshd_config file and add the ff. line.
 	* ClientAliveInterval 600
 	* ClientAliveCountMax 0
-	* # systemctl restart sshd
+	* $ systemctl restart sshd
 
 *  The idle timeout interval you are setting is in sec. (600 secs = 10 mins.).
    Once the interval has passed, the idle user will be automatically logged out.
@@ -20,7 +20,7 @@
 	* Become root
 	* Edit your /etc/ssh/sshd_config file and replace PermitRootLogin yes to no
 	* PermitRootLogin no
-	* # systemctl restart sshd
+	* $ systemctl restart sshd
 
 3. Disable Emtpy Passwords
    You need to prevent remote logins from accounts with empty passwords for added security
@@ -28,7 +28,7 @@
 	* Become root
 	* Edit your /etc/ssh/sshd_config file and remove # from the following line
 	* PermitEmptyPasswords no
-	* # systemctl restart sshd
+	* $ systemctl restart sshd
 
 4. Limit User's SSH Access
    To provide another layer's security, you should limit your SSH logins to only certain
@@ -37,7 +37,7 @@
 	* Become root
 	* Edit your /etc/ssh/sshd_config file and add
 	* AllowUsers user1 user2
-	* # systemctl restart sshd
+	* $ systemctl restart sshd
 
 5. Use a different port
    By default SSH port run on 22. Most hackers looking for any open SSH servers will look
@@ -47,6 +47,6 @@
 	* setenforce 0
 	* Edit your /etc/ssh/sshd_config file and remove # from the ff. line and change the port number
 	* port 22
-	* # systemctl restart sshd
+	* $ systemctl restart sshd
 
 6. SSH-Keys - Access Remote Server w/o Password

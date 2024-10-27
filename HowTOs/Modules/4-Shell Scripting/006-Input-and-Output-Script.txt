@@ -5,10 +5,10 @@ echo
 
 a=`hostname`
 
-echo Hello, my server name is $a
+$ echo Hello, my server name is $a
 
-echo What is your name?
+$ echo What is your name?
 
 read $n
 
-echo your name is $n
+# echo your name is $n

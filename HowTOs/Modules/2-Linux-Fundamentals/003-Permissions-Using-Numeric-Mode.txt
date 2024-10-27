@@ -1,7 +1,7 @@
 * Permission to a file and directory can also be assigned numerically
-	* chmod ugo+r FILE
+	$ chmod ugo+r FILE
 	or
-	* chmod 444 FILE
+	$ chmod 444 FILE
 
 * Changing permissions - numeric method
 

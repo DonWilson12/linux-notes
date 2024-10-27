@@ -1,15 +1,15 @@
-DNS is a system that translates a hostname to IP address.
-Package to installed is called "bind"
+* DNS is a system that translates a hostname to IP address.
+	  Package to installed is called "bind"
 
 Purpose?
-	Hostname to IP		(A Record)
-	IP to hostname		(PTR Record)
+	Hostname to IP			(A Record)
+	IP to hostname			(PTR Record)
 	Hostname to Hostname	(CNAME Record)
 
 Files
-	named			= named of the process of the DNS
+	named				= named of the process of the DNS
 	/etc/named.conf		= Configuration file
-	/var/named		= dir, all zone files where you define all the hostname to IP, IP to hostname
+	/var/named			= dir, all zone files where you define all the hostname to IP, IP to hostname
 
 Service
 	$ systemctl restart named
@@ -142,9 +142,3 @@ serach lab.local
 
 nameserver <master DNS IP ADDR>
 nameserver 192.168.1.29
-
-
-
-
-
-

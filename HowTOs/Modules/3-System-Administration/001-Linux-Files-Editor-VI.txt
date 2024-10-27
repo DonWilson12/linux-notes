@@ -1,4 +1,4 @@
-3 modes
+3 MODES
 
 1. insert mode
 2. command mode

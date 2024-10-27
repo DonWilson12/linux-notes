@@ -15,7 +15,7 @@ Else S = M + 2
 Commands:
 
 Become root
-* 1GB of virtual memory or swap is automatically created. If your memory is 1GB you will only add 1GB to make it 2GB
+# 1GB of virtual memory or swap is automatically created. If your memory is 1GB you will only add 1GB to make it 2GB
 $ dd if=/dev/zero of=/newswap bs=1M count=1024
 if = read from file
 of = write to a file/virtual pages
@@ -37,6 +37,6 @@ $ /etc/fstab
 /newswap	swap	swap	defaults	0	0
 
 
-* To delete swap space
+# To delete swap space
 $ swapoff /newswap
 $ rm /newswap

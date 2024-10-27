@@ -8,8 +8,10 @@ It's main purpose is to provide high availability and redundancy.
 
 NIC Bonding Procedure
 
-1. Install bonding driver = modprobe bonding
-2. modinfo bonding	  = To check if the driver is installed.
+1. Install bonding driver 	= modprobe bonding
+
+2. modinfo bonding	  		= To check if the driver is installed.
+
 3. Create /etc/sysconfig/network-scripts/ifcfg-bond0 file and add this contents.
 
 DEVICE=bond0

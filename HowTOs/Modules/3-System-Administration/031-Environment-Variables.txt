@@ -31,4 +31,4 @@ To set global envronment variable permanently
 	-
 	Test='123'
 	export TEST
-
+	

@@ -1,10 +1,10 @@
-* change directory
+# change directory
 $ cd
 
-* list directory contents 
+# list directory contents 
 $ ls
 
-* print name of current/working directory
+# print name of current/working directory
 $ pwd
 
 

@@ -13,7 +13,3 @@ $ rpm -hiv </absolute/path/filename.rpm>
 # remove the package
 $ rpm -e <full name>
 $ yum remove <package name>
-
-
-
-

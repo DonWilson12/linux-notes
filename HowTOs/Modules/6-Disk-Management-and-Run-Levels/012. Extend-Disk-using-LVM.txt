@@ -6,11 +6,11 @@ Few Options
 * Create a new virtual disk and mount to /foldername
 * Or extend /foldername through LVM
 
-* partition disk
+# partition disk
 $ fdisk /dev/sdd
 Command (m for help): n, p, 1, default, default, p, t, L, 8e, w
 
-* extend the file system
+# extend the file system
 $ pvdisplay	# shows which group is associated on which disk or $ pvs
 $ vgdisplay oracle_vg
 $ pvcreate /dev/sdd1

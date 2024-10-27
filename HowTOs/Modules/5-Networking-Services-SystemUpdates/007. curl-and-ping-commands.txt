@@ -7,5 +7,3 @@ Example of windows browser
 
 $ curl <URL>
 $ curl -O <URL>		# to download files if wget is not available
-
-

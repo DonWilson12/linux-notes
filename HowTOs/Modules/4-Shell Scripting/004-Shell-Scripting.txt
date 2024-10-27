@@ -1,6 +1,5 @@
 • What is a Shell Script?
-
-A shell script is an executable file containing multiple shell commands that are executed sequentially. The file can contain:
+    Ans: A shell script is an executable file containing multiple shell commands that are executed sequentially. The file can contain:
 
 * Shell (#!/bin/bash)
 * Comments (# comments)

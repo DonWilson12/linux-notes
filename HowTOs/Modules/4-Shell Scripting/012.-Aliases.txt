@@ -8,10 +8,10 @@ Some examples:
   alias	h="history -r | more"
 
 To view all current aliases:
-  alias
+  $ alias
 
 To remove a previously defined alias: 
-  unalias alias_name
+  $ unalias alias_name
 
 $ alias ls="ls -al"
 $ alias pl="pwd; ls"

@@ -1,13 +1,13 @@
-* create file
+# create file
 $ touch <filename>
 
-* copy file
+# copy file
 $ cp <source path> <destination path>
 
-* copy file
+# copy file
 $ vi <filename>
 
-* create directory
+# create directory
 $ mkdir <directoryName>
 
 

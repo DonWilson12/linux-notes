@@ -17,7 +17,7 @@ INSTALL, CONFIGURE, and MANAGE COCKPIT
 
 * Install cockpit package as root
 	$ yum/dnf install cockpit –y	(For RH or CentOS)
-	$ apt-get install cockpit	(For Ubuntu)
+	$ apt-get install cockpit		(For Ubuntu)
 
 * Start and enable the service
 	$ systemctl start|enable cockpit

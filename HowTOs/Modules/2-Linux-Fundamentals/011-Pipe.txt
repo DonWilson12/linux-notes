@@ -4,11 +4,11 @@
 
 Syntax:
 
-	command [arguments] | command [arguments]
+	$ command [arguments] | command [arguments]
 
 Example
 
 	$ ls -ltr | more
 	
-	* gives the last line of output
+	# gives the last line of output
 	$ ls -l | tail -1

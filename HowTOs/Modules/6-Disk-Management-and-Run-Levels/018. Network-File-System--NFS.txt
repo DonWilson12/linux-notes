@@ -10,19 +10,19 @@
 
 Steps for NFS Server Configuration
 
-* Install NFS packages
+# Install NFS packages
 	$ yum install nfs-utils libnfsidmap (most likely they are installed) 
-* Once the packages are installed, enable and start NFS services
+# Once the packages are installed, enable and start NFS services
 	$ systemctl enable rpcbind
 	$ systemctl enable nfs-server
 	$ systemctl start rpcbind, nfs-server, rpc-statd, nfs-idmapd 
-* Create NFS share directory and assign permissions
+# Create NFS share directory and assign permissions
 	$ mkdir /mynfs
 	$ chmod a+rwx /mynfs
-* Modify /etc/exports file to add new shared filesystem
+# Modify /etc/exports file to add new shared filesystem
 	$ /mynfs	192.168.12.7(rw,sync,no_root_squash)	= for only 1 host
 	$ /mynfs	*(rw,sync,no_root_squash)		= for everyone
-* Export the NFS filesystem
+# Export the NFS filesystem
 	$ exportfs -rv
 
 sync =  all changes to the according filesystem are immediately flushed to disk;
@@ -31,23 +31,23 @@ sync =  all changes to the according filesystem are immediately flushed to disk;
 no_root_squash = root on the client machine will have the same level of access to the files
 		 on the system as root on the server.
 
-Steps for NFS Client Configuration
+* Steps for NFS Client Configuration
 
-* Install NFS packages
+# Install NFS packages
 	$ yum install nfs-utils rpcbind
-* Once the packages are installed enable and start rpcbind service
+# Once the packages are installed enable and start rpcbind service
 	$ systemctl rpcbind start
-* Make sure firewalld or iptables stopped (if running)
+# Make sure firewalld or iptables stopped (if running)
 	$ ps -ef | egrep "firewall|iptable"
-* Show mount from the NFS server
+# Show mount from the NFS server
 	$ showmount -e 192.168.1.x (NFS Server IP)
-* Create a mount point
+# Create a mount point
 	$ mkdir /mnt/kramer
-* Mount the NFS filesystem
+# Mount the NFS filesystem
 	$ mount 192.168.1.5:/mynfs /mnt/kramer
-* Verify mounted filesystem
+# Verify mounted filesystem
 	$ df -h
-* To unmount
+# To unmount
 	$ umount /mnt/kramer
 
 IF NFS SERVICE IS RUNNUNG BEHIND FIREWALL
@@ -61,7 +61,7 @@ Allow the TCP and UDP port specified with STATD_PORT="port"
 Allow the TCP port specified with LOCKD_TCPPORT="port"
 Allow the UDP port specified with LOCKD_UDPPORT="port"
 
-# systemctl restart nfs
+$ systemctl restart nfs
 
 * To mount the filesystem in boot time add the following below at the end of /etc/fstab
 -

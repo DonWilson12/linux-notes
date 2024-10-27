@@ -24,4 +24,4 @@ $ top then press c	= shows commands absolute path
 $ top then press k	= kill a process by PID within top session. specify the PID to kill the process
 $ top then M and P	= To sort all linux running processes by Memory usage
 
-	NOTE: Top command refreshes the information every 3 seconds
+NOTE: Top command refreshes the information every 3 seconds

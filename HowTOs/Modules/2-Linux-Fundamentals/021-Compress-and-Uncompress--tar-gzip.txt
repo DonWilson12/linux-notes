@@ -2,16 +2,16 @@ tar
 gzip
 gzip -d OR gunzip
 
-Examples
+* Examples:
 
-* tarring / archiving
+# tarring / archiving
 $ tar cvf filename.tar .
 
-* untar / extract files
+# untar / extract files
 $ tar xvf filename.tar
 
-* compressing
+# compressing
 $ gzip filename.tar
 
-* uncompress
+# uncompress
 $ gzip -d filename.tar.gz
