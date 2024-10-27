@@ -7,10 +7,10 @@
 	* By default when running a command its output goes to terminal
 	* The output of a command can be routed to a file using > symbol
 		* E.g.	$ ls -l > listings
-				$ pwd > findpath
-	*If using the same file for additional output or to append to the same file then use >>
+			$ pwd > findpath
+	* If using the same file for additional output or to append to the same file then use >>
 		* E.g.	$ ls -la >> listings
-				$ echo "hello world" >> findpath
+			$ echo "hello world" >> findpath
 
 * Input (stdin) - 0
 	* Input is used when feeding file contents to a file
@@ -23,4 +23,4 @@
 	* If the command produced any error on the screen then it is considered (stderr - 2)
 		* We can use redirects to route errors from the screen
 			* E.g.	$ ls -l /root 2> errorfile
-					$ telnet localhost 2> errorfile
+				$ telnet localhost 2> errorfile

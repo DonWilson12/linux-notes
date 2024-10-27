@@ -10,7 +10,7 @@ There are 3 types of permissions
 	3. x - execute = running a program
 
 Each permission (rwx) can be controlled at three levels:
-	* u - user = yourself
+	* u - user  = yourself
 	* g - group = can be people in the same proj.
 	* o - other = everyone on the system
 	* a - all
