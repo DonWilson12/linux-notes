@@ -11,7 +11,9 @@ Sample
 	# open .bashrc file /home/user/.bashrc
 	# type at the end of the line type "alias hh="hostname"
 	# open new session and test it.
-	$ alias hh = "hostname"		# this is only tied to a particular session.
+
+	# this is only tied to a particular session.
+	$ alias hh = "hostname"
 ----------------------------------------------------------------------------------------
 
 # To make alias available globally edit the /etc/bashec file

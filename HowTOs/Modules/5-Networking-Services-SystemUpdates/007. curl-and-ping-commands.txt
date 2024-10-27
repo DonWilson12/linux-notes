@@ -6,4 +6,6 @@ Example of windows browser
 * Example in linux
 
 $ curl <URL>
-$ curl -O <URL>		# to download files if wget is not available
+
+# to download files if wget is not available
+$ curl -O <URL>

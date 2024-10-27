@@ -10,8 +10,8 @@
 	* Rollback an update
 		* Downgrading a system to minor version (ex. RHEL7.1 to RHEL7.0)
 		  is not recommended as this might leave the system in undesired or unstable state.
-		* $ yum update = Update will preserve them
-		* $ yum upgrade = Upgrade will delete obsolete packages
+		* $ yum update			= Update will preserve them
+		* $ yum upgrade 		= Upgrade will delete obsolete packages
 		* $ yum history
 		* $ yum history undo <id>	==> rollback the update
 

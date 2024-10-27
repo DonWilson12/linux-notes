@@ -1,4 +1,5 @@
 There are 3 types of help commands
-	$ whatis <command>
-	$ <command> --help
-	$ man <command>
+
+$ whatis <command>
+$ <command> --help
+$ man <command>

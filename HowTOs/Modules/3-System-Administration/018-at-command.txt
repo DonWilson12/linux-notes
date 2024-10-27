@@ -4,10 +4,10 @@
 * When the command is run it will enter interactive mode and you can get out by pressing Ctrl D
 
 Usage:
-at HH:MM PM				= Schedule a job
-atq						= List the at entries
-atrm #					= Remove at entry
-atd						= at daemon/service that manages scheduling
+at HH:MM PM		= Schedule a job
+atq			= List the at entries
+atrm #			= Remove at entry
+atd			= at daemon/service that manages scheduling
 systemctl status atd	= To manage the atd service
 
 * Create at entry by scheduling a task:

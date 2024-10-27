@@ -37,6 +37,3 @@ $ yum clean all
 
 # verify
 $ yum repolist all
-
-
-

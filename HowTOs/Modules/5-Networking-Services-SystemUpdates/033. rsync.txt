@@ -29,4 +29,3 @@
 * rsync a file from a remote machine
 	$ touch serverfile
 	$ rsync -avzh iafzal@192.168.1.x:/home/iafzal/serverfile /tmp/backups
-	

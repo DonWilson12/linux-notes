@@ -8,9 +8,9 @@ Example:
 
 # Create a new partition from new disk
 $ fsidk /dev/sdb
-Command (m for help):	n	= new partition
-			p	= primary
-			w	= write table to disk
+Command (m for help):	n = new partition
+			p = primary
+			w = write table to disk
 	
 # Next is to assign file system type
 $ mkfs.xfs /dev/sdb1

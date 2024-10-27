@@ -7,21 +7,22 @@
 
 SEQUENCE:
 
-BIOS =	Basic Input and Output Setting (firmware interface)
-		POST = Power-On Self-Test started
+BIOS	= Basic Input and Output Setting (firmware interface)
 
-MBR =	Master Boot Record
-		Information saved in the first sector of a hard disk that indicates where the
-		GRUB2 is located so it can be loaded in computer RAM
+POST	= Power-On Self-Test started
 
-GRUB2 = Grand Unified Boot Loader v2
-		Loads Linux Kernel
-		/boot/grub2/grub.cfg
+MBR	= Master Boot Record
+	  Information saved in the first sector of a hard disk that indicates where the
+	  GRUB2 is located so it can be loaded in computer RAM
 
-Kernel = Core of Operating System
-		 Loads required drivers from initrd.img... kernel used driver to communicate
-		 Starts the first OS process (systemd)
+GRUB2	= Grand Unified Boot Loader v2
+	  Loads Linux Kernel
+	  /boot/grub2/grub.cfg
 
-Systemd = System Daemon (PID # 1)
-	Reads = /etc/systemd/system/default.target to bring the system to run-level
-	Total of 7 run-levels (0 thru 6)
+Kernel	= Core of Operating System
+	  Loads required drivers from initrd.img... kernel used driver to communicate
+	  Starts the first OS process (systemd)
+
+Systemd	= System Daemon (PID # 1)
+	  Reads = /etc/systemd/system/default.target to bring the system to run-level
+	  Total of 7 run-levels (0 thru 6)

@@ -7,7 +7,7 @@ Usage example:
 
 $ systemctl start|stop|status servicename.service	(firewalld)
 $ systemctl enable servicename.service
-$ systemctl restart|reload servicename.service		= used after configuration changes
+$ systemctl restart|reload servicename.service	= used after configuration changes
 $ systemctl list-units --all 
 
 The output of the ff colums:

@@ -1,14 +1,10 @@
 Acts as a server to received logs from other servers
 
-* Purpose		= Generate logs or collect logs from other servers
-
+* Purpose	= Generate logs or collect logs from other servers
 * package name	= rsyslog
-
 * Conf. file	= /etc/rsyslog.conf
-
-* Service		= $ systemctl restart rsyslog
-				= $ systemctl enable rsyslog
-
+* Service	= $ systemctl restart rsyslog
+		= $ systemctl enable rsyslog
 
 Configuring rsyslog Server
 ---------------------------------------------------
@@ -56,4 +52,3 @@ Our rsyslog client has been configured.
 
 Now connect to our rsyslog server and check /var/log/messages
 	# tail /var/log/messages
-	

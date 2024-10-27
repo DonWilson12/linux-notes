@@ -21,16 +21,16 @@ $ useradd -g superheroes -s /bin/bash -c "user description" -m -d /home/spiderma
 
 Sample commands
 
-$ useradd username					= create a user
-$ id username						= verify if you successfully created a user
-$ groupadd groupname				= create group
-$ cat /etc/group					= verify group
-$ userdel -r username				= delete user as well as it's home directory
-$ groupdel groupname 				= delete group
-$ usermod							= modify usesr account
-$ usermod -G groupname username		= add user to the group.. verify .. grep username /etc/group
-$ chgrp -R groupname userhomedir	= change the group of the user home directory
-$ passwd username					= create password for the user
+$ useradd username		 = create a user
+$ id username			 = verify if you successfully created a user
+$ groupadd groupname		 = create group
+$ cat /etc/group		 = verify group
+$ userdel -r username		 = delete user as well as it's home directory
+$ groupdel groupname 		 = delete group
+$ usermod			 = modify usesr account
+$ usermod -G groupname username	 = add user to the group.. verify .. grep username /etc/group
+$ chgrp -R groupname userhomedir = change the group of the user home directory
+$ passwd username		 = create password for the user
 
 * Create multiple accounts using newusers command
 	* Create the file first and the content will be like this:

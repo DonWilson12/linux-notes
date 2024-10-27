@@ -1,11 +1,11 @@
 * Crontab command is used to schedule tasks
 
 Usage:
-$ crontab -e 				= Edit the crontab
-$ crontab -l				= List the crontab entries
-$ crontab -r				= Remove the crontab
-$ crond						= crontab daemon/service that manages scheduling
-$ systemctl status crond	= To manage the crond service
+$ crontab -e		 = Edit the crontab
+$ crontab -l		 = List the crontab entries
+$ crontab -r		 = Remove the crontab
+$ crond			 = crontab daemon/service that manages scheduling
+$ systemctl status crond = To manage the crond service
 
 minute - hour - day of month - month of year - day of week </path/script-to-execute>
 

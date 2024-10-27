@@ -1,13 +1,15 @@
-* Background 					= Ctrl-z, jobs and bg
-* Foreground 					= fg
+* Background 			= Ctrl-z, jobs and bg
+* Foreground 			= fg
 * Run process even after exit 	= nohup process &
-	OR 							= nohub process > /dev/null 2>&1 &
-* Kill a process by name 		= pkill
-* Process priority 				= nice (e.g. nice -n 5 process)
-	The niceness scale goes from -20 to 19. The lower the number
-	more priority that task gets
-* Process monitoring 			= top
-* List process 					= ps
+	OR 			= nohub process > /dev/null 2>&1 &
+* Kill a process by name 	= pkill
+
+* Process priority 		= nice (e.g. nice -n 5 process)
+				  The niceness scale goes from -20 to 19. The lower the number
+				  more priority that task gets
+
+* Process monitoring 		= top
+* List process 			= ps
 
 ----------------------------------------------------------------------------
 
