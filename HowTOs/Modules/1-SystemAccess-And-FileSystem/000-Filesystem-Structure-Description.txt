@@ -1,3 +1,10 @@
+Q: What is Filesystem?
+	A: It is a system used by an operating system to manage files.
+	   The system controls how data is saved or retrieved.
+
+Types of filesystem:
+	* e.g. ext3, ext4, xfs, NTFS, FAT etc.	
+
 File System Structure and its Description:
 
 /boot			Contains file that is used by the boot loader (grub.cfg)
