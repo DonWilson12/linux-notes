@@ -1,3 +1,6 @@
+# Gived cpu, memory, etc.
+$ top
+
 # disk info
 $ df -h
 
