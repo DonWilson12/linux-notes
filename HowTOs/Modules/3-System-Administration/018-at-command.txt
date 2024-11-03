@@ -9,8 +9,8 @@ atd			= at daemon/service that manages scheduling
 systemctl status atd	= To manage the atd service
 
 * Create at entry by scheduling a task:
-	at 4:45PM → enter
-	echo "This is my first at entry" > at-entry Crtl D
+	$ at 4:45PM → (hit enter)
+	at> echo "This is my first at entry" > at-entry (hit Crtl D)
 
 Other future scheduling format:
 
