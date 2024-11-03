@@ -1,4 +1,4 @@
-# Gived cpu, memory, etc.
+# Gives cpu information, memory information, etc.
 $ top
 
 # disk partition infomation
