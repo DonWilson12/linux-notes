@@ -1,7 +1,7 @@
 * Background 			= Ctrl-z, jobs and bg
 * Foreground 			= fg
-* Run process even after exit 	= nohup process &
-	OR 			= nohub process > /dev/null 2>&1 &
+* Run process even after exit 	= nohup [process name] [args] &
+	OR 			= nohub [process name] [args] > /dev/null 2>&1 &
 * Kill a process by name 	= pkill
 
 * Process priority 		= nice (e.g. nice -n 5 process)
