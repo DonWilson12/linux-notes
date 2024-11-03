@@ -1,7 +1,7 @@
 # Gived cpu, memory, etc.
 $ top
 
-# disk info
+# disk partition infomation
 $ df -h
 
 # free up space if usage is 100% to see what file is 
