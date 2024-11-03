@@ -20,6 +20,13 @@ $ iostat 1
 $ netstat -rnv
 $ netstat | more
 
+# display routing information such as gateway info, source ip assigned to interface
+$ ip route
+$ ip route | column -t		# readable form
+
+# display active socket connections
+$ ss | more
+
 # output memory utilization
 $ free
 
